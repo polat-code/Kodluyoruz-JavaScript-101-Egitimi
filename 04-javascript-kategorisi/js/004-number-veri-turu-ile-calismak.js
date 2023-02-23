@@ -17,6 +17,11 @@ let newNumber = Number(stringNumber)
 console.log(newNumber)
 console.log("Number Constructor icine bilgi gonderildi:", Number("111"))
 
+let stringNum = "12";
+console.log(stringNum);
+let newNumber01 = Number(stringNum);
+console.log("New number 01 " , newNumber01);
+
 // arttirma ve azaltma islemleri:
 let counter = 320
 counter = counter + 1 // uzun yontem
@@ -51,7 +56,7 @@ console.log(2 * 2 * 2 * 2)
 console.log(2 ** 4)
 
 // asagi yuvarlama islemi -> Math.floor:
-console.log("Asagi Yuvarlama:", Math.floor(1.9) )  // -> 1
+console.log("Asagi Yuvarlama" , Math.floor(2.9)) // -> 1
 
 // yukari yuvarlama islemi -> Math.ceil :
 console.log("Yukari Yuvarlama:", Math.ceil(1.9) ) // -> 2
